@@ -1,21 +1,10 @@
 @charset "utf-8";
-@media only screen and (max-width: 768px){
-  .text-gold {
-    color: #B2994E;
-  }
-
-  .dli-chevron-down {
-    display: inline-block;
-    vertical-align: middle;
-    color: #FFC300;
-    line-height: 1;
-    width: 2em;
-    height: 2em;
-    border: 0.5em solid currentColor;
-    border-left: 0;
-    border-bottom: 0;
-    box-sizing: border-box;
-    transform: translateY(-25%) rotate(135deg);
-  }
+h1 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 12px !important;
+  z-index: 10;
 }
-

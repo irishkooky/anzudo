@@ -3,15 +3,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
-* {
-  color: inherit;
+*{margin:0;padding:0;}
+article, header, footer, aside, figure, figcaption, nav, section, main {
+  display:block;
 }
-
-html, body {
+html{
+  height: 100%;
+}
+body{
+  font-size: 14px;
+  font-family: "游ゴシック体","游ゴシック","Yu Gothic","YuGothic","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ","Meiryo",sans-serif;
+  font-weight: 500;
+  height: 100%;
   width: 100%;
-  font-size: 16px;
-  font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
-  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/bgYellow.png");
+  color: #444;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #fff;
 }
 
 img {
@@ -60,19 +68,6 @@ span.small {
   }
 
 /*--------------------構造--------------------------*/
-
-
-#headNav {
-  width: 100%;/*1349px*/
-  box-sizing: border-box;
-  background: rgba(219, 206, 18, .9) url("https://www.rakuten.ne.jp/gold/anzudo/images/bg.png") ;
-}
-
-/*.headNav {
-  background: rgb(219, 206, 18, .7);
-} 
-*/
-
 #nav1 {
   white-space: nowrap;
   display: flex;
@@ -90,10 +85,6 @@ span.small {
 
 #nav1 li:nth-child(2) {
   width: 25%;
-}
-
-#headNav img {
-  height: auto;
 }
 
 .nav2 {
@@ -127,11 +118,7 @@ span.small {
 
 
 @media only screen and (max-width: 768px){
-  
-  #headNav {
-    height: auto;
-  }
-  
+
   #nav1 {
     font-size: 0.6em;
     width: 100%;
@@ -150,10 +137,6 @@ span.small {
 }
 
 /*-------リンク先のページが充実していないので、ヘッダーnav2はとりあえず非表示------*/
-
-#headNav .nav2 {
-  display: none;
-}
 
 /*----------------------スライダー-------------------------*/
 
