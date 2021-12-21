@@ -70,6 +70,7 @@ span.small {
 /*--------------------構造--------------------------*/
 .nav {
   display: flex;
+  background-color: #e6b266;
 }
 
 .nav li {
@@ -79,48 +80,31 @@ span.small {
   text-align: center;
 }
 
-.nav2 {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0 auto;
-  color: #fff;
-}
-
-.nav2 li {
-  background: #333;
-  width: 30%;
-  text-align: center;
-  padding: 1em 0;
-}
-
-
 /*--------ホバーしたときの文字色設定------*/
 
-#nav1 li a, .nav2 li a, #sideNavi li a {
+.nav li a, .nav2 li a, #sideNavi li a {
   display: block;
   width: 100%;
   height: 100%;
   transition: 0.5s;
 }
 
-#nav1 li a:hover, .nav2 li a:hover, #sideNavi li a:hover, #logo2 +p a:hover {
+.nav li a:hover, .nav2 li a:hover, #sideNavi li a:hover, #logo2 +p a:hover {
   color: #D95177;
 }
 
 
 @media only screen and (max-width: 768px){
 
-  #nav1 {
+  .nav {
     font-size: 0.6em;
     width: 100%;
     margin-left: 0;
-    position: fixed;
     top: 0;
     left: 0;
   }
 
-  #nav1 li {
+  .nav li {
     padding: 1em 0;
     font-size: 0.8em;
     background: rgba(51,51,51,.5);
@@ -316,8 +300,6 @@ main section {
 
 .items ul li {
   width: 35%;
-  margin: 1em;
-  padding: 2em;
   background: #fff;
   border: 1px #fff solid;
   border-radius: 10%;
@@ -372,13 +354,8 @@ s {
 }
 
 @media only screen and (max-width: 768px) {
-  
-  .items ul {
-    flex-flow: column;
-  }
-
   .items ul li {
-    width: 80%;
+    width: 50%;
   }
   
   .items dt {
