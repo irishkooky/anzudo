@@ -3,15 +3,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
-* {
-  color: inherit;
+*{margin:0;padding:0;}
+article, header, footer, aside, figure, figcaption, nav, section, main {
+  display:block;
 }
-
-html, body {
+html{
+  height: 100%;
+}
+body{
+  font-size: 14px;
+  font-family: "游ゴシック体","游ゴシック","Yu Gothic","YuGothic","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ","Meiryo",sans-serif;
+  font-weight: 500;
+  height: 100%;
   width: 100%;
-  font-size: 16px;
-  font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
-  background: url("../images/bgYellow.png");
+  color: #444;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #fff;
 }
 
 img {
@@ -23,7 +31,7 @@ h2 {
   font-weight: bold;
   position: relative;
   padding-left: 2em;
-  background: url("../images/heart.png") no-repeat top 0 left 1.75em;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/heart.png") no-repeat top 0 left 1.75em;
 }
 
 /*h2::before {
@@ -32,7 +40,7 @@ h2 {
   display: block;
   position: absolute;
   top: 0;
-  left: 0;  
+  left: 0;
 }
 */
 
@@ -60,21 +68,6 @@ span.small {
   }
 
 /*--------------------構造--------------------------*/
-
-
-#headNav {
-  width: 100%;/*1349px*/
-  padding: 1em;
-  box-sizing: border-box;
-  height: 100vh;
-  background: rgba(219, 206, 18, .9) url("../images/bg.png") ;
-}
-
-/*.headNav {
-  background: rgb(219, 206, 18, .7);
-} 
-*/
-
 #nav1 {
   white-space: nowrap;
   display: flex;
@@ -92,10 +85,6 @@ span.small {
 
 #nav1 li:nth-child(2) {
   width: 25%;
-}
-
-#headNav img {
-  height: auto;
 }
 
 .nav2 {
@@ -129,11 +118,7 @@ span.small {
 
 
 @media only screen and (max-width: 768px){
-  
-  #headNav {
-    height: auto;
-  }
-  
+
   #nav1 {
     font-size: 0.6em;
     width: 100%;
@@ -152,10 +137,6 @@ span.small {
 }
 
 /*-------リンク先のページが充実していないので、ヘッダーnav2はとりあえず非表示------*/
-
-#headNav .nav2 {
-  display: none;
-}
 
 /*----------------------スライダー-------------------------*/
 
@@ -308,7 +289,7 @@ main section {
   font-size: 0.8em;
   text-align: right;
   padding-top: 5em;
-  background: url("../images/logo.png") no-repeat top 0 right 6em/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/logo.png") no-repeat top 0 right 6em/contain;
 }
 
 @media only screen and (max-width: 768px){
@@ -380,7 +361,7 @@ main section {
   
 .items dd:last-of-type {
   height: 50px;
-  background: url("../images/showItemPage.jpg") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/showItemPage.jpg") no-repeat center/contain;
 }
 
 .items dd:last-of-type a {
@@ -527,7 +508,7 @@ input[type="text"] {
 #sidebar .banners ul li {
   width: 180px;
   height: 120px;
-  background: url("../images/slide1.jpg") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/slide1.jpg") no-repeat center/contain;
   margin: 1em 1em auto 1em;
   transition: 0.5s;
 }
@@ -543,39 +524,39 @@ input[type="text"] {
 }
 
 #sidebar .banners ul li:nth-child(2) {
-  background: url("../images/slide2.jpg") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/slide2.jpg") no-repeat center/contain;
 }
 
 #sidebar .banners ul li:nth-child(3) {
-  background: url("../images/slide3.jpg") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/slide3.jpg") no-repeat center/contain;
 }
 
 #sidebar .banners ul li:nth-child(4) {
-  background: url("../images/slide4.jpg") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/slide4.jpg") no-repeat center/contain;
 }
 
 #sidebar .banners ul li:nth-child(5) {
-  background: url("../images/slide5.jpg") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/slide5.jpg") no-repeat center/contain;
 }
 
 #sidebar .banners ul li:nth-child(6) {
-  background: url("../images/slide6.jpg") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/slide6.jpg") no-repeat center/contain;
 }
 
 #sidebar .banners ul li:nth-child(7) {
-  background: url("../images/slide7.jpg") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/slide7.jpg") no-repeat center/contain;
 }
 
 #sidebar .banners ul li:nth-child(8) {
-  background: url("../images/slide8.jpg") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/slide8.jpg") no-repeat center/contain;
 }
 
 #sidebar .banners ul li:nth-child(9) {
-  background: url("../images/slide9.jpg") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/slide9.jpg") no-repeat center/contain;
 }
 
 #sidebar .banners ul li:nth-child(10) {
-  background: url("../images/slide10.jpg") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/slide10.jpg") no-repeat center/contain;
 }
 
 
@@ -597,14 +578,14 @@ input[type="text"] {
 
 #footer .footerUpper {
   width: 100%;
-  background: rgba(219, 206, 18, .9) url("../images/bgYellow.png");
+  background: rgba(219, 206, 18, .9) url("https://www.rakuten.ne.jp/gold/anzudo/images/bgYellow.png");
   padding: 1em 0;
 }
 
 #logo2 {
   height: 100px;
   margin: 1em auto; 
-  background: url("../images/logo.png") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/logo.png") no-repeat center/contain;
 }
 
 #logo2 +p {
@@ -643,19 +624,19 @@ input[type="text"] {
 }
 
 .sns li:first-child {
-  background: url("../images/f_logo_RGB-Blue_1024.png") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/f_logo_RGB-Blue_1024.png") no-repeat center/contain;
 }
 
 .sns li:nth-child(2) {
-  background: url("../images/line.png") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/line.png") no-repeat center/contain;
 }
 
 .sns li:nth-child(3) {
-  background: url("../images/Instagram.png") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/Instagram.png") no-repeat center/contain;
 }
 
 .sns li:last-child {
-  background: url("../images/Logo blue.svg") no-repeat center/contain;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/Logo blue.svg") no-repeat center/contain;
 }
 
 .sns li:hover {
@@ -797,15 +778,15 @@ input[type="text"] {
 }
 
 .about ol li:first-child dl dt{
-  background: url("../images/number1.png") no-repeat;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/number1.png") no-repeat;
 }
 
 .about ol li:nth-child(2) dl dt {
-  background: url("../images/number2.png") no-repeat;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/number2.png") no-repeat;
 }
 
 .about ol li:last-child dl dt {
-  background: url("../images/number3.png") no-repeat;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/number3.png") no-repeat;
 }
 
 .about ol li dl dd {
@@ -864,12 +845,12 @@ input[type="text"] {
 }
 
 .faq ul li:nth-child(2n+1) {
-  background: url("../images/q32.png") no-repeat left 0 top 0.3em;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/q32.png") no-repeat left 0 top 0.3em;
   margin-top: 2em;
 }
 
 .faq ul li:nth-child(2n) {
-  background: url("../images/a32.png") no-repeat left 0 top 0.3em;
+  background: url("https://www.rakuten.ne.jp/gold/anzudo/images/a32.png") no-repeat left 0 top 0.3em;
   margin-bottom: 2em;
 }
 
