@@ -14,6 +14,8 @@
   <meta http-equiv="cache-control" content="no-cache">
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/sp.css">
+  <link rel="stylesheet" href="../css/pc.css">
   <link rel="stylesheet" href="../flexslider.css">
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="../js/jquery.flexslider.js"></script>
@@ -21,98 +23,93 @@
   <script src="../js/script.js"></script>
 </head>
 
+
 <body>
   <header id="headNav" class="headNav">
     <nav>
-      <ul id="nav1">
+      <ul class="nav">
         <li><a href="https://www.rakuten.ne.jp/gold/anzudo/">ホーム</a></li>
-        <li><a href="about.html">プリン専門店杏堂とは</a></li>
+        <li><a href=#items>商品一覧</a></li>
+        <li><a href="about.html">杏堂について</a></li>
         <li><a href="https://inquiry.my.rakuten.co.jp/shop/399858">お問い合わせ</a></li>
-        <li><a href="faq.html">よくあるご質問</a></li>
-        <li><a href="news.html">過去のお知らせ</a></li>
-      </ul>
-      <a href="https://item.rakuten.co.jp/anzudo/001"><img src="../images/top_tenpo_w2000px.png" alt="トップ画像"></a>
-      <ul class="nav2">
-        <li><a href="campaign.html">キャンペーン</a></li>
-        <li><a href="https://item.rakuten.co.jp/anzudo/001">商品</a></li>
-        <li>送料無料</li>
       </ul>
     </nav>
   </header>
   <div id="container">
-
     <main>
-
-      <section class="campaign">
-        <h2>なんでチキン売ってるの？ページ</h2>
-      </section>
-    </main>
-
-    <aside>
-      <div id="sidebar">
-        <div class="shippingFeeFree">
-          <img src="../images/icon_shippingfee_free@2x.png" alt="banner">
-        </div>
-        <div id="shoppingGuide">
-          <h3><a href="http://www.rakuten.co.jp/anzudo/info.html">はじめての方へ<br>お買い物ガイド</a></h3>
-        </div>
-        <div id="searchBox" class="section">
-          <div class="searchBox_input">
-            <form name="myForm" method="get" action="http://esearch.rakuten.co.jp/rms/sd/isearch/vc"
-              accept-charset="EUC-JP">
-              <input type="hidden" name="sid" value="399858">
-              <input type="text" name="sitem" id="sitem" placeholder="気になるキーワードで検索">
-              <div class="search-button"><input type="submit" value="検索"></div>
-            </form>
-          </div>
-        </div>
-
-        <section id="category">
-          <h2>Category</h2>
-          <ul class="nav2">
-            <li><a href="#">キャンペーン</a></li>
-            <li><a href="https://item.rakuten.co.jp/anzudo/001">商品</a></li>
-            <li>送料無料</li>
-          </ul>
-        </section>
-        <!--カテゴリー-->
-
-        <section id="information">
-          <h2>Information</h2>
-          <nav>
-            <ul id="sideNavi">
-              <li><a href="https://www.rakuten.ne.jp/gold/anzudo/">ホーム</a></li>
-              <li><a href="about.html">プリン専門店杏堂とは</a></li>
-              <li><a href="https://inquiry.my.rakuten.co.jp/shop/399858">お問い合わせ</a></li>
-              <li><a href="faq.html">よくあるご質問</a></li>
-              <li><a href="news.html">過去のお知らせ</a></li>
-              <li><a href="http://www.rakuten.co.jp/anzudo/info.html">会社概要</a></li>
-            </ul>
-          </nav>
-          <ul class="sns">
-            <li></li>
-            <!--facebook-->
-            <li></li>
-            <!--ライン-->
-            <li></li>
-            <!--インスタ-->
-            <li></li>
-            <!--Twitter-->
-          </ul>
-        </section>
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <a href="https://item.rakuten.co.jp/anzudo/001"><img src="https://www.rakuten.ne.jp/gold/anzudo/images/top_slide01_2_dark_w2000px.png"
+                alt="スライド1"></a>
+          </li>
+          <li>
+            <a href="https://item.rakuten.co.jp/anzudo/001"><img src="https://www.rakuten.ne.jp/gold/anzudo/images/top_slide02_w2000px.png" alt="スライド2"></a>
+          </li>
+          <li>
+            <a href="https://item.rakuten.co.jp/anzudo/001"><img src="https://www.rakuten.ne.jp/gold/anzudo/images/top_slide03_w2000px.png" alt="スライド3"></a>
+          </li>
+          <li>
+            <a href="https://item.rakuten.co.jp/anzudo/001"><img src="https://www.rakuten.ne.jp/gold/anzudo/images/top_slide04_w2000px.png" alt="スライド4"></a>
+          </li>
+        </ul>
       </div>
-    </aside>
+      <section id="items" class="items">
+        <h2 class="left">コラボのきっかけ</h2>
+        <div class="mb-20px">
+          <h3 class="h3">それはとある六本木での物語</h3>
+          <img src="https://www.rakuten.ne.jp/gold/anzudo/images/roppongi.jpg" alt="六本木の画像">
+          <p class="mt-4px">
+            2021年7月某日。六本木。<br>
+            ありがとうプリンを世の中に広めたいと思い立ち、六本木の街を歩いておりました。なぜ六本木なのかと言うと、六本木には日本国内外問わず多種多様な人たちがいるからです。六本木は繁華街で様々な飲食店があります。50店舗は訪れたでしょうか。そんな飲食店がひしめく六本木という街で代表がひときわ印象に残ったお店がありました。
+          </p>
+        </div>
+        <div class="mb-20px">
+          <h3 class="h3">"チキンマン"</h3>
+          <img src="https://www.rakuten.ne.jp/gold/anzudo/images/deli.jpg" alt="チキンマンの画像">
+          <p class="mt-4px">
+            そこは六本木交差点近くにあるロティサリーチキンのお店でした。日本にはあまり馴染みがない名称かと思いますが、所謂ローストチキンだと思ってください。ある日ふらっとそのお店に入った代表でした。するとそこには香ばしく焼かれているチキンと何よりも目を引く大きなグリル。<br>
+          </p>
+          <img class="mt-10px" src="https://www.rakuten.ne.jp/gold/anzudo/images/grill.jpg" alt="グリル画像">
+          <p class="mt-4px">
+            <span class="font-bold">「遠赤外線オーブン」</span><br>
+            聞くところによるとこの機械は、日本に数台しか無いのだとか。杏堂の代表はとにかくこの機械を使って焼くチキンに惚れ込んだのだとか。
+          </p>
+        </div>
+        <div class="mb-20px">
+          <h3 class="h3">ところが、、、</h3>
+          <img src="https://www.rakuten.ne.jp/gold/anzudo/images/worry.jpg" alt="がっかり">
+          <p class="mt-4px">
+            昨今の新型コロナウイルスの影響で飲食店は大打撃。チキンマンも例にもれず、売上は半減。打撃をうけることに。。
+          </p>
+        </div>
+        <div class="mb-20px">
+          <h3 class="h3">絶やしたくない、伝えたい。</h3>
+          <img src="https://www.rakuten.ne.jp/gold/anzudo/images/dhike-san.jpg" alt="ディケさん">
+          <p class="text-gray text-center text-10px">チキンマン店主：ディケさん</p>
+          <p class="mt-4px">
+            「このすばらしいチキンを絶やす訳にはいかない、どうにかして多くの人に伝えたい！！」杏堂の代表はそう思いました。
+            杏堂がインターネットを通じてプリンを販売していたということで、これならもっと多くの人にこのチキンのおいしさを知ってもらえるのではないか！そう思いました。<br>
+            これこそが<span class="font-bold text-red">杏堂×チキンマンコラボ</span>の始まりなのです！
+          </p>
+        </div>
+        <div class="mb-20px">
+          <h3 class="h3">今後はセットも！</h3>
+          <img src="https://www.rakuten.ne.jp/gold/anzudo/images/set.jpg" alt="セット">
+          <p class="mt-4px">
+            今後はセットでの販売もしていく予定です！また、チキンマンで「<a href="https://search.rakuten.co.jp/search/mall/%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84+%E3%82%AE%E3%83%95%E3%83%88/?sid=399858">ありがとうプリン</a>」を食べることもできます！六本木に遊びに来た際はぜひ訪れてみてはいかがでしょうか？^^
+            <img src="https://www.rakuten.ne.jp/gold/anzudo/images/pudding-solo.jpg" alt="ありがとうプリン">
+          </p>
+        </div>
+      </section>
+
+    </main>
 
   </div>
   <!--#container-->
 
-  <!--▼サイドナビ（スマホ用）▼-->
-  <iframe height="300" width="100%" frameborder="0" src="sidenav_sp.html" name="in" scrolling="no"></iframe>
-  <!--▲サイドナビ（スマホ用）▲-->
   <footer>
-    <!--▼フッター▼-->
     <iframe height="300" width="100%" frameborder="0" src="../footer.html" name="in" scrolling="no"></iframe>
-    <!--▲フッター▲-->
   </footer>
 
 </body>
