@@ -1,12 +1,5 @@
 @charset "utf-8";
 
-#headNav {
-  display: flex;
-  background-color: #e6b266;
-}
-#headNav li {
-  color: #fff;
-  font-size: 14px;
-  width: 25%;
-  text-align: center;
+.nav {
+  height: 44px;
 }

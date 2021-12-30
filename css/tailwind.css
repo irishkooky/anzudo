@@ -485,3 +485,6 @@
 .-ml {margin-left: -1px;}
 
 .text-white {color: #fff;}
+
+.grid {display: grid}
+.place-items-center {place-items-center: center}
