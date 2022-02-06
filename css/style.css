@@ -561,3 +561,10 @@ input[type="text"] {
 .faq figure p {
   position: relative;  top: 50px;  width: 100%;  color: #fff;
 }
+
+.a-blue {
+  color: #4682b4;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #4682b4;
+}

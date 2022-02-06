@@ -14,6 +14,7 @@
   <meta http-equiv="cache-control" content="no-cache">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sp.css" media="screen and (max-width: 769px)">
   <link rel="stylesheet" href="./css/flexslider.css">
   <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
@@ -24,7 +25,7 @@
 </head>
 
 <body>
-  <header id="headNav" class="headNav">
+  <header id="headNav" class="headNav mb-4">
     <nav>
       <ul class="nav">
         <li><a href="https://www.rakuten.ne.jp/gold/anzudo/">ホーム</a></li>
@@ -39,7 +40,7 @@
       <div class="flexslider">
         <ul class="slides">
           <li>
-            <a href="https://item.rakuten.co.jp/anzudo/001"><img src="https://www.rakuten.ne.jp/gold/anzudo/images/top_slide01_2_dark_w2000px.png"
+            <a href="https://item.rakuten.co.jp/anzudo/001"><img src="https://image.rakuten.co.jp/anzudo/cabinet/20210606162200.jpg"
                 alt="スライド1"></a>
           </li>
           <li>
@@ -53,10 +54,29 @@
           </li>
         </ul>
       </div>
-      <a href="https://coupon.rakuten.co.jp/getCoupon?getkey=REFSUy1BOFhDLUcyNUotUkVaSg--&rt=">
-        <img src="https://image.rakuten.co.jp/anzudo/cabinet/08360442/imgrc0112654270.jpg" class="text-center" width="70%" alt="ショッピングチャンネルクーポンはこちら">
-      </a>
-      ↑ショッピングチャンネルクーポンはこちら
+      <div>
+        <a href="https://coupon.rakuten.co.jp/getCoupon?getkey=REFSUy1BOFhDLUcyNUotUkVaSg--&rt=">
+          <img src="https://image.rakuten.co.jp/anzudo/cabinet/08360442/imgrc0112654270.jpg" class="mx-auto mb-3" width="70%" alt="ショッピングチャンネル配信記念クーポン">
+        </a>
+        <p class="text-center mb-5 a-blue"><a href="https://coupon.rakuten.co.jp/getCoupon?getkey=REFSUy1BOFhDLUcyNUotUkVaSg--&rt=">ショッピングチャンネル配信記念クーポンはこちらから！</a></p>
+      </div>
+
+      <!-- landing page section -->
+      <div class="mb-10">
+        <img class="w-full" src="https://image.rakuten.co.jp/anzudo/cabinet/pudding02/item_01_concept.jpg" alt="ありがとうプリン">
+        <img class="w-full" src="https://image.rakuten.co.jp/anzudo/cabinet/pudding02/item_02_scene_1.jpg" alt="ナチュラルテイスト">
+        <img class="w-full" src="https://image.rakuten.co.jp/anzudo/cabinet/pudding02/item_02_scene_2.jpg" alt="フタ裏のメッセージ">
+        <img class="w-full" src="https://image.rakuten.co.jp/anzudo/cabinet/pudding02/item_03_reason_1.jpg" alt="3つのこだわり">
+        <img class="w-full" src="https://image.rakuten.co.jp/anzudo/cabinet/pudding02/item_03_reason_2.jpg" alt="完全受注生産制">
+        <img class="w-full" src="https://image.rakuten.co.jp/anzudo/cabinet/pudding02/item_04_hozonryou.jpg" alt="保存料は不使用">
+        <img class="w-full" src="https://image.rakuten.co.jp/anzudo/cabinet/pudding02/item_05_about.jpg" alt="杏堂について">
+        <img class="w-full" src="https://image.rakuten.co.jp/anzudo/cabinet/pudding02/item_06_kuchikomi.jpg" alt="お客様の声">
+        <p class="buy-btn">
+          <a href="https://search.rakuten.co.jp/search/mall/プリン/?sid=399858">ご購入はこちら</a>
+        </p>
+      </div>
+
+      <!-- items section -->
       <section id="items" class="items">
         <h2>商品一覧</h2>
         <ul class="flex">
@@ -167,12 +187,10 @@
     </aside>
 
   </div>
-  <!--#container-->
 
   <footer>
     <iframe height="300" width="100%" frameborder="0" src="footer.html" name="in" scrolling="no"></iframe>
   </footer>
 
 </body>
-
 </html>
