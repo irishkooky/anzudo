@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.a-blue {
+  color: #4682b4;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #4682b4;
+}
