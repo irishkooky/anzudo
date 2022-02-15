@@ -8,3 +8,38 @@ h1 {
   font-size: 12px !important;
   z-index: 10;
 }
+
+.nav {
+  height: 48px;
+}
+
+.buy-btn {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.buy-btn a {
+  margin: 0 auto;
+  padding: 5px 0;
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  background: #D10101;
+  border: 1px solid #D10101;
+  width: 70vw;
+  position: relative;
+  transition: .4s;
+}
+
+.buy-btn a:after {
+  content: "";
+  display: inline-block;
+  background: url(../images/buy-btn.png) no-repeat;
+  background-size: cover;
+  width: 14px;
+  height: 21px;
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translate(0,-50%);
+}
